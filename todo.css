@@ -1,0 +1,81 @@
+
+
+body{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color:rgb(51, 51, 51);
+    font-size:3rem;
+}
+
+#container{
+    margin-bottom:40px;
+}
+
+#taskInput{
+    padding:10px;
+    width:300px;
+    font-size:1.2rem;
+    transition: border-radius 1s ease-in-out;
+}
+
+#taskInput:focus{
+    border-radius:30px;
+}
+
+#addButton{
+    padding:10px 20px;
+    background-color: #333;
+    color:white;
+    font-size:1.2rem;
+    transition: all 1s ease-in-out;
+}
+
+#addButton:hover{
+    border-radius:30px;
+}
+
+
+ul{
+    width:80%;
+    margin:0 auto;
+    list-style-type:none;
+    padding:0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    background-color: rgb(218, 218, 218);
+    font-size:1.3rem;
+    margin-bottom:10px;
+}
+
+li.completed{
+    text-decoration: line-through;
+    color:#bababa;
+}
+
+input[type="checkbox"]{
+    margin-right:10px;
+    height:20px;
+    width:20px;
+}
+
+.deleteButton{
+    margin-left:auto;
+    padding:10px 20px;
+    background-color: red;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:1.2rem;
+    transition: all 1s ease-in-out;
+}
+
+.deleteButton:hover{
+    border-radius:30px;
+}
